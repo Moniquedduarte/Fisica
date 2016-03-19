@@ -16,31 +16,31 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".CalorimetriaActivity">
+        <activity android:name=".CalorimetriaActivity" android:parentActivityName=".MainActivity">
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </activity>
 
-        <activity android:name=".OndulatoriaActivity">
+        <activity android:name=".OndulatoriaActivity" android:parentActivityName=".MainActivity">
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </activity>
 
-        <activity android:name=".OpticaActivity">
+        <activity android:name=".OpticaActivity" android:parentActivityName=".MainActivity">
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </activity>
 
-        <activity android:name=".TermodinamicaActivity">
+        <activity android:name=".TermodinamicaActivity" android:parentActivityName=".MainActivity">
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </activity>
 
-        <activity android:name=".TermometriaActivity">
+        <activity android:name=".TermometriaActivity" android:parentActivityName=".MainActivity">
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
